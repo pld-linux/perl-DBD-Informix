@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	DBD
-%define	pnam	Informix
+%define		pdir	DBD
+%define		pnam	Informix
 Summary:	DBD::Informix - IBM Informix database driver for Perl
 Summary(pl):	DBD::Informix - sterownik do bazy danych Informix IBM-a dla Perla
 Name:		perl-DBD-Informix
