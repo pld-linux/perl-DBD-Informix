@@ -31,7 +31,7 @@ Informix z poziomu Perla poprzez modu³ DBI.
 %build
 %{?informixroot:INFORMIXDIR="%{informixroot}"; export INFORMIXDIR}
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 
 %{__make} OPTIMIZE="%{rpmcflags}"
 
