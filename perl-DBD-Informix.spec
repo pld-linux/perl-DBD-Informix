@@ -5,8 +5,8 @@ Summary:	DBD::Informix perl module
 Summary(pl):	Modu³ perla DBD::Informix
 Name:		perl-DBD-Informix
 Version:	1.00.PC2
-Release:	1
-License:	GPL or Artistic
+Release:	2
+License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl-DBI >= 1.13
@@ -41,14 +41,12 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-gzip -9nf Announce ChangeLog README TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Announce ChangeLog README TODO
 #%{perl_sitearch}/???
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
