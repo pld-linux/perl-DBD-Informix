@@ -47,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Announce ChangeLog README TODO
-#%{perl_sitearch}/???
+#%%{perl_sitearch}/???
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
