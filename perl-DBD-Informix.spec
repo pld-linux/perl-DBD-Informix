@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBD
 %define	pnam	Informix
-Summary:	DBD::Informix perl module
-Summary(pl):	Modu³ perla DBD::Informix
+Summary:	DBD::Informix - IBM Informix database driver for Perl
+Summary(pl):	DBD::Informix - sterownik do bazy danych Informix IBM-a dla Perla
 Name:		perl-DBD-Informix
 Version:	1.00.PC2
 Release:	3
-License:	GPL/Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7626cec258c465c85b307ad93a0e3275
@@ -16,14 +16,14 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IBM Informix Database Driver for Perl (previously known as
-DBD::Informix) is the driver code that enables Perl 5.004 or 5.005 to
-access Informix databases via the DBI module.
+IBM Informix database driver for Perl (previously known as
+DBD::Informix) is the driver code that enables Perl to access Informix
+databases via the DBI module.
 
 %description -l pl
-IBM Informix Database Driver for Perl (poprzednio znany jako
-DBD::Informix) jest sterownikiem pozwalaj±cym na dostêp do baz danych
-Informix z poziomu Perla poprzez modu³ DBI.
+Sterownik do bazy danych Informix IBM-a dla Perla (poprzednio znany
+jako DBD::Informix) jest sterownikiem pozwalaj±cym na dostêp do baz
+danych Informix z poziomu Perla poprzez modu³ DBI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
