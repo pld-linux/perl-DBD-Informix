@@ -5,12 +5,12 @@ Summary:	DBD::Informix perl module
 Summary(pl):	Modu³ perla DBD::Informix
 Name:		perl-DBD-Informix
 Version:	1.00.PC2
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl-DBI >= 1.13
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 #BR: Informix ESQL/C 5.00 or later, or Client SDK 2.00 or later
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
