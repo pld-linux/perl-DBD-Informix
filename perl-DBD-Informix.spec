@@ -8,12 +8,12 @@
 Summary:	DBD::Informix - IBM Informix database driver for Perl
 Summary(pl):	DBD::Informix - sterownik do bazy danych Informix IBM-a dla Perla
 Name:		perl-DBD-Informix
-Version:	1.00.PC2
-Release:	3
+Version:	2005.02
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7626cec258c465c85b307ad93a0e3275
+# Source0-md5:	31508761eac827fbfb1bdc878fe72702
 BuildRequires:	perl-DBI >= 1.13
 BuildRequires:	rpm-perlprov >= 4.1-13
 #BR: Informix ESQL/C 5.00 or later, or Client SDK 2.00 or later
