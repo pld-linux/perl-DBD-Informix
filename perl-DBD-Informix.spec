@@ -16,6 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	31508761eac827fbfb1bdc878fe72702
 BuildRequires:	perl-DBI >= 1.13
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl-ExtUtils-AutoInstall
 #BR: Informix ESQL/C 5.00 or later, or Client SDK 2.00 or later
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
