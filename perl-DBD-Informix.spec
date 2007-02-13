@@ -6,7 +6,7 @@
 %define		pdir	DBD
 %define		pnam	Informix
 Summary:	DBD::Informix - IBM Informix database driver for Perl
-Summary(pl.UTF-8):   DBD::Informix - sterownik do bazy danych Informix IBM-a dla Perla
+Summary(pl.UTF-8):	DBD::Informix - sterownik do bazy danych Informix IBM-a dla Perla
 Name:		perl-DBD-Informix
 Version:	2005.02
 Release:	1
